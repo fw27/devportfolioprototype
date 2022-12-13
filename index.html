@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diorgens Braga.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <!-- particles.js container -->
+<div id="particles-js"></div> <!-- stats - count particles -->
+<div class="count-particles"> <span class="js-count-particles">--</span> particles </div> <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
+<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+<script>
+    `use strict`;
+function refreshTime() {
+  const timeDisplay = document.getElementById("time");
+  const dateString = new Date().toLocaleString();
+  const formattedString = dateString.replace(", ", " - ");
+  timeDisplay.textContent = formattedString;
+}
+  setInterval(refreshTime, 1000);
+	var date = new Date();
+	var today = time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds();
+	document.getElementById("footer").innerHTML = date;
+</script>
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Diorgens Braga</h1>
+        <h2>Java Developer / Android Developer / Technical Support</h2>
+        <div id="menu">
+            <a onclick="showabout()">About</a>
+            <a onclick="showwork()">Work</a>
+            <a onclick="showcontact()">Contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-facebook"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1><center>Work Experiences</h1></center>
+        <section>
+            <h2></h2>
+            <p>
+                <div id="about">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h2 class="heading">About Me</h2>
+                            </div>
+                            <div class="col-md-8">
+                                <p>
+                
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End #about -->
+            
+                <div id="experience" class="background-alt">
+                    <h2 class="heading"></h2>
+                    <div id="experience-timeline">
+                        <div data-date="February 2022 – November 2022">
+                            <h3><a style="color:orange">Fed</a><a style="color:purple">Ex</a> Express</h3>
+                            <h4>Tier 2 IT Support Technician</h4>
+                            <p>
+            <li> 9 months of work experience as a temp Level 2 IT support technician at FedEx Express Brazil. Performing general problem solving and technical assistance associated with Tier 2, either locally or remotely on diverse software applications and hardware systems by using the company’s incident management web software and customer support tools.
+            </li>
+            <li>Resolving the logistics of the IT-related equipment the company receives through their ticket system, separating, configuring, cataloguing, 
+            categorizing, tagging and sending them properly to their destinations.</li>
+                            </p>
+                        </div>
+            
+                        <div data-date="September 2017 – September 2021">
+                            <h3>Berlim <a style="color:yellow">Bebidas</a></h3>
+                            <h4>Stockist</h4>
+                            <p>
+                                <li>Movement activities and measurement of stocks of goods.</li> 
+                                <li>Receive, store, separate and pack the goods.</li> 
+                                <li>Assistance in the inventory and conservation and cleaning of the facilities and company equipment. </li> 
+                                <li>CCTV/CCTV monitoring.</li> 
+                                <li>Conference of goods and receipt of goods.</li> 
+                                <li>Inventory control with ERP system, entry releases and output in the ERP system.</li> 
+                                <li>Stock organization, goods issue, replenishment and customer service as needed.</li>   
+                            </p>
+                        </div>
+            
+                        <div data-date="September 2015 – September 2016">
+                            <h3>Pizzaria D'Ville Bandeiras</h3>
+                            <h4>Clerk</h4>
+                            <p>
+                                <li>Customer service via WhatsApp, calls or in person, for ordering and delivery.</li> 
+                                <li>Movement activities and measurement of stocks of goods.</li> 
+                                <li>Receive, store, separate and pack the goods.</li> 
+                                <li>Assistance in the inventory and conservation and cleaning of the facilities and company equipment. </li> 
+                                <li>Conference of goods and receipt of goods.</li>         
+                                <li>Stock organization, goods issue and replenishment.</li>   
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End #experience -->
+            
+                <div id="education">
+                    <h2 class="heading"><center>Education</h2></center>
+                    <div class="education-block">
+                        <h3>Faculdade Delta</h3>
+                        <span class="education-date">Feb 2016 - Dec 2019</span>
+                        <h4>Bachelor of Science in Information Systems</h4>
+                        <p>
+                            <li>Learned multiple popular coding languages such as Java, Android, HTML, CSS, Python and Android.</li>
+                           <li>Development of Information Systems. Being able to assume positions and functions of Software Engineer, Systems Analyst, Managers of Projects, Database Administrator, Infrastructure Administrator, among many others;</li>
+                            <li>Development of commercial and managerial software;</li>
+                            <li>Select and maintain platforms (software and hardware) for computer networks;</li>
+                            <li>Provide consultancy for the acquisition of software and hardware;</li>
+                            <li>Develop and maintain web applications and distributed applications.</li>
+                            <li>Research, select, install, configure and maintain security equipment and software for data and applications;</li>
+                            <li>Manage the maintenance process in a network environment, specifying materials and equipment;</li>
+                            <li>Coordinate and manage the financial, human and technical resources of the Information System area;</li>
+                        </p>
+                    </div>
+                    <!-- End .education-block -->
+            
+                    <div class="education-block">
+                        <h3>Colegio Estadual Novo Horizonte</h3>
+                        <span class="education-date">Sept 2016 - Sept 2017</span>
+                        <h4>High School</h4>
+                    </div>
+                    <!-- End .education-block -->
+                </div>
+                <!-- End #education -->
+            
+                <div class="project">
+                    <h2 class="heading"><center>Projects</h2></center>
+                    <h2>Simphorer</h2>
+                    <div>It is an simple photo storage app that stores images to display similar to imgur but collectively. Built using Firebase. </div>
+                    <button class="btn_one">visit project</button>
+                   </div>
+                <!-- End #projects -->
+            
+                <div id="skills">
+                    <h2 class="heading"><center>Skills</h2></center>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Ruby</li>
+                        <li>Go</li>
+                        <li>Node.js</li>
+                        <li>AngularJs</li>
+                        <li>React</li>
+                        <li>Elixir</li>
+                        <li>Java</li>
+                        <li>C</li>
+                        <li>C#</li>
+                        <li>C++</li>
+                        <li>Ruby on Rails</li>
+                    </ul>
+                </div>
+                <!-- End #skills -->
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
+                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
+            </div>
+            <button class="btn_two">English</button>
+            <button class="btn_one">Portuguese</button>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h2>about.</h2>
+            <section>
+                <h2>about me</h2>
+                <p>
+                    I was firstly introduced to computers at a young age of 8, which contributed on developing my interest in technology and computers. Thus, giving me a hint of what I should work with.
+                </p>
+                <h2>skills</h2>
+                <p>
+                 <h4>
+                    <li>Developed in NoSQL/SQL database (PostgreSQL, MySQL, Firebase), Java and Android programming, Web (HTML/CSS/PHP, SOAP/REST).</li>  
+                       <li>Knowledge in Python, Node.JS, JavaScript, Angular, APIs, Ionic, JPA, VBA, JSF, Primefaces, Bootstrap, JDBC, JUnit, Hibernate, Spring Framework (Data, JDBC Template, Security, MVC and Batch) and Thymeleaf.</li>  
+                    <li>Ease with operating systems such as Windows and Linux, other computer equipment such as computers and smartphones, software and network hardware such as modems or routers, antivirus and VPN, being able to assemble/install, repair, resolve strange bugs and configure each technology in the best way possible.</li>
+<li>Familiarity with designing and images/audio/video editing, thus improving the quality of the product/application under development from the start. 
+(Adobe package/design tools). </li>
+<li>Knowledge in administration and maintenance of network based on Windows Server with Active Directory that includes servers and workstations. Thus, being able to manage all AD objects, such as domain, user accounts, groups, organizational units, file and print services.</li>
+<li>Knowledge in ERP and office applications, particularly Excel and VBA (Microsoft Office).</li>
+<li>English language proficiency despite being born in Brazil. Can speak with different accents to completely adapt to the english speaker to improve communication</li>
+</p></h4>
+<p></p>
+<h2>languages</h2>
+<p>
+    <div id="used">
+        <div><i class="fas fa-circle"></i>&nbsp;English (<a href="https://www.efset.org/cert/JxSdjU">EF Set - Advanced</a>)</div>
+        <div><i class="fas fa-circle"></i>&nbsp;Portuguese (Born in Brazil)</div>
+        <div><i class="fas fa-circle"></i>&nbsp;German</div>
+        <div><i class="fas fa-circle"></i>&nbsp;French</div>
+        <div><i class="fas fa-circle"></i>&nbsp;Spanish</div>
+        <div><i class="fas fa-circle"></i>&nbsp;Japanese</div>
+    </div>
+     </p>
+</p>
+            </section>
+            <section>
+                
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact.</h1>
+            <section>
+                <h2>contact me</h2>
+                <p>
+                    <form>
+                        <input type="text" placeholder="name" required>
+                        <input type="email" placeholder="email" required><br>
+                        <textarea placeholder="your message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            <br> <a href="https://wa.me/+5562991195929">WhatsApp</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
