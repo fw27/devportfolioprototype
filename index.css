@@ -174,7 +174,7 @@ background: linear-gradient(270deg, rgba(0,0,0,0.927608543417367) 35%, rgba(0,17
     height:90vh;
     opacity: 0.95;
     padding:5vh 5vw;
-    background:rgb(0, 161, 113);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
     color:#fff;
     z-index:9;
     position:fixed;
